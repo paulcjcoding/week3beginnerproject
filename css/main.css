@@ -1,0 +1,147 @@
+ * {
+   padding: 10px 0 0 10px;
+ }
+
+p {
+  font-size: 20px;
+}
+cta {
+    height: 725px;
+    text-align: right;
+  }
+  body {
+    padding: 70px;
+  }
+  
+  img {
+    float: left;
+    padding: 1px;
+    background-image: transparent;
+  }
+  h1 img {
+    height: 75px;
+    top: 10px;
+    font-size: 10px;
+  }
+
+  header {
+
+    padding: 70px
+  }
+  nav {
+    background: #02908B;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    padding: 60px;
+  }
+
+  nav span {
+    font-family: 'Open Sans', sans-serif;
+    color: #cfc91d;
+    text-align: left;
+  }
+  nav ul {
+    position: absolute;
+    right: 25px;
+    top: 5px;
+  }
+  nav li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+  nav li > a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  nav li > a:hover,
+  nav li > a:focus {
+    color: #cfc91d;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 60px;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+.footer p {
+    margin: 0;
+    color: #FFFFFF;
+    padding-left: 35px;
+}
+
+#cta {
+  background-image: url(../img/dronepic9.jpg);
+
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  padding: 70px;
+}
+
+/* .block {
+  display: inline-block;
+  width: 20%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  text-;
+}
+.block:hover {
+  background-color: #ddd;
+  color: black; */
+}
+.button {
+  background-color: #CCCCCC;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: right;
+  font-size: 80px;
+  cursor: pointer;
+}
+
+.button:hover {
+background-color: #535362;
+text-align: right;
+}
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
