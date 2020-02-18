@@ -1,41 +1,43 @@
  * {
    padding: 10px 0 0 10px;
  }
-
+ header {
+  padding: 20px
+}
 p {
-  font-size: 20px;
+  font-size: 25px;
+  justify-content: space-between;
+
+}
+
 }
 cta {
     height: 725px;
     text-align: right;
   }
   body {
-    padding: 70px;
+    padding: 200px;
   }
-  
+ 
   img {
-    float: left;
-    padding: 1px;
+    padding: 0;
     background-image: transparent;
+    float: left;
   }
-  h1 img {
-    height: 75px;
-    top: 10px;
-    font-size: 10px;
-  }
-
-  header {
-
-    padding: 70px
-  }
+ smoothieicon {
+   padding: 200px;
+ }
+ 
   nav {
     background: #02908B;
     height: 60px;
     left: 0;
-    position: absolute;
+    position: fixed;
     right: 0;
-    top: 0px;
-    padding: 60px;
+    top: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
   }
 
   nav span {
@@ -57,11 +59,16 @@ cta {
     text-decoration: none;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    text-size-adjust: 150px;
+    font-size: 20px;
+    padding: 40px;
+    display: flex;
   }
   nav li > a:hover,
   nav li > a:focus {
     color: #cfc91d;
   }
+ 
   .footer {
     position: fixed;
     left: 0;
@@ -77,17 +84,7 @@ cta {
     margin: 0;
     color: #FFFFFF;
     padding-left: 35px;
-}
-
-#cta {
-  background-image: url(../img/dronepic9.jpg);
-
-  text-align: center;
-}
-
-section {
-  text-align: center;
-  padding: 70px;
+    
 }
 
 /* .block {
@@ -122,12 +119,13 @@ text-align: right;
 .styled {
   border: 0;
   line-height: 2.5;
-  padding: 0 20px;
+  padding: 0 50px;
   font-size: 1rem;
+  margin: 50px;
   text-align: center;
   color: #fff;
   text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
+  border-radius: 0;
   background-color: rgba(220, 0, 0, 1);
   background-image: linear-gradient(to top left,
                                     rgba(0, 0, 0, .2),
