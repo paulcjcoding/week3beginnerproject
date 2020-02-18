@@ -9,6 +9,12 @@ p {
   justify-content: space-between;
 
 }
+.smoothieicon {
+  display: flex;
+  height: 80px;
+  left: 0;
+  position: fixed;
+  top: 20px;
 
 }
 cta {
@@ -24,9 +30,6 @@ cta {
     background-image: transparent;
     float: left;
   }
- smoothieicon {
-   padding: 200px;
- }
  
   nav {
     background: #02908B;
@@ -119,7 +122,7 @@ text-align: right;
 .styled {
   border: 0;
   line-height: 2.5;
-  padding: 0 50px;
+  padding: 0 30px;
   font-size: 1rem;
   margin: 50px;
   text-align: center;
